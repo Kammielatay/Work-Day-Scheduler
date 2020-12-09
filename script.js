@@ -19,10 +19,6 @@ currentDay.css({fontSize: "30px"})
 currentTime.css({fontSize: "25px"})
 
 
-//adding textareas for standard business days 
-
-
-
 
 
 })
