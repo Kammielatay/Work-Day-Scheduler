@@ -1,7 +1,7 @@
 jQuery(document).ready(function(){
 
 // adding and styling current date and time
-$('#currentDay').text(moment().format('LL')).css({fontSize: "25px"});
+$('#currentDay').text(moment().format('[Today is ] LL')).css({fontSize: "25px"});
 $('#currentTime').text(moment().format('LT')).css({fontSize: "25px"});
 
 
