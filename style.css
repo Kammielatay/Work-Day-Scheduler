@@ -60,7 +60,6 @@ textarea{
   color: white;
 }
 
-
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -74,6 +73,6 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
-footer {
-  margin-top: 20px;
+p {
+  margin-top: 50px;
 }
