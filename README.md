@@ -6,7 +6,7 @@ Have you ever felt as though there wasn't enough time during the work day to get
 
 If you are anything like me, than you know that planning out your work day is the best way to get things done. This work day planner will allow you to make a list of all the tasks that need to get done during the day with color coding time block to showcase what should be a priority fogit r that hour. 
 
-Check it out here! ![Work-Day-Schedule](https://kammielatay.github.io/Work-Day-Scheduler/)
+Check it out here! [Work-Day-Schedule](https://kammielatay.github.io/Work-Day-Scheduler/)
 
 ![Work-Day-Video](https://j.gifs.com/gZloxD.gif)
 
