@@ -5,15 +5,11 @@ $('#currentDay').text(moment().format('[Today is ] LL')).css({fontSize: "25px"})
 $('#currentTime').text(moment().format('LT')).css({fontSize: "25px"});
 
 
-let startTime = moment('9AM', 'hA').format('HH:mm'); // when time-block starts
-let endTime = moment('5PM', 'hA').format("HH:mm"); // when time-block ends 
 let realTime = moment().format('HH:mm'); // current time 
 
-
 let startHour = moment().startOf('hour').format("HH:mm") // start of current hour
-let endHour = moment().endOf('hour').format("HH:mm") // end of current hour
 
-
+// setting classes for textarea based on real time 
 $('.hour').each(function(){
     let convertingTime = $(this).text() //setting values to variable
     let convertedTime = moment(convertingTime, 'HA').format('HH:mm') // coverting time to military
@@ -39,9 +35,7 @@ function setLocalStorage(){
         var id = $(this).attr('id');
         var value = $(this).val();
         localStorage.setItem(id, value);
-
     }); 
-
 }
 
 // getting input from local storage
@@ -55,8 +49,6 @@ $('#hourTwo').text(window.localStorage.getItem('hourTwo'))
 $('#hourThree').text(window.localStorage.getItem('hourThree'))
 $('#hourFour').text(window.localStorage.getItem('hourFour'))
 $('#hourFive').text(window.localStorage.getItem('hourFive'))
-
-
 
 
 })
