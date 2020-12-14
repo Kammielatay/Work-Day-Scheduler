@@ -9,6 +9,13 @@ let realTime = moment().format('HH:mm'); // current time
 
 let startHour = moment().startOf('hour').format("HH:mm") // start of current hour
 
+let endTime = moment("23:59", "HH:mm").format('HH:mm')
+
+// clearing local storage at the end of the day
+if(realTime === endTime){
+    localStorage.clear()
+}
+
 // setting classes for textarea based on real time 
 $('.hour').each(function(){
     let convertingTime = $(this).text() //setting values to variable
@@ -52,3 +59,4 @@ $('#hourFive').text(window.localStorage.getItem('hourFive'))
 
 
 })
+
